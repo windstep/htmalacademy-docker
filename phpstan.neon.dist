@@ -1,0 +1,9 @@
+parameters:
+    level: 7
+    paths:
+        - src
+    fileExtensions:
+        - php
+    inferPrivatePropertyTypeFromConstructor: true
+    excludes_analyse:
+        - */src/helpers.php

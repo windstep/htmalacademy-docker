@@ -1,3 +1,5 @@
 /src/*
 !/src/fpm-start.sh
 .idea
+
+/vendor/
