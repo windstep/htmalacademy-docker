@@ -12,6 +12,8 @@
     },
     "scripts": {
         "codestyle": "./vendor/bin/phpcs --extensions=php",
-        "analyse": "./vendor/bin/phpstan analyse"
+        "analyse": "./vendor/bin/phpstan analyse",
+        "w-analyse": "vendor\\bin\\phpstan analyse",
+        "w-codestyle": "vendor\\bin\\phpcs --extensions=php"
     }
 }
