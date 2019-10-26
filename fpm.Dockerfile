@@ -13,4 +13,3 @@ USER app
 WORKDIR /app
 EXPOSE 9000
 COPY --chown=app ./src /app
-CMD ["sh ./fpm-start.sh"]

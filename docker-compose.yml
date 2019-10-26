@@ -7,7 +7,6 @@ services:
     volumes:
       - ./php.ini:/etc/php/php.ini
       - ./src:/app
-    command: "sh fpm-start.sh"
   nginx:
     build:
       context: ./

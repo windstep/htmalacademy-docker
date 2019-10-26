@@ -1,2 +1,2 @@
-composer install
+#composer install
 php-fpm
